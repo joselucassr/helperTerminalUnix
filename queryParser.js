@@ -30,7 +30,7 @@ const queryFunction = async (checker, data) => {
 
   regexChecker = new RegExp(regexChecker);
 
-  console.log('regexChecker', regexChecker);
+  // console.log('regexChecker', regexChecker);
 
   let res = await fetch('/helperTerminalUnix/groupTags.json');
   jsonGroupData = await res.json();
@@ -49,7 +49,7 @@ const queryFunction = async (checker, data) => {
     return c.tags.match(regexChecker) !== null;
   });
 
-  console.log('filteredByTags', filteredByTags);
+  // console.log('filteredByTags', filteredByTags);
 
   let prepFilteredByTags = [];
 
@@ -64,7 +64,7 @@ const queryFunction = async (checker, data) => {
   filteredByName.forEach((f) => completeQueryResult.push(f));
   prepFilteredByTags.forEach((p) => completeQueryResult.push(p));
 
-  console.log(completeQueryResult);
+  // console.log(completeQueryResult);
   writeHtml(completeQueryResult);
 };
 
