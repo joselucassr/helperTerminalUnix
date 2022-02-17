@@ -77,7 +77,7 @@ const writeHtml = (queryResults) => {
       <div id="${qr.id}" class="card">
         <div class="cardFirstLine">
           <div class="purpleHighlight">~$ ${qr.name}</div>
-          <div onclick="writeToClipboard('${qr.name}')" style="width: 25px" class="pointer"><img src="copySvg.svg" alt="" /></div>
+          <div onclick="writeToClipboard('${qr.name}', '${qr.id}')" style="width: 25px" class="pointer"><img src="copySvg.svg" alt="" /></div>
         </div>
         <div>
           <div class="commentHightlight"># Basicamente</div>
@@ -132,9 +132,9 @@ const openCommandPage = (commandId) => {
     '/helperTerminalUnix/commandPage.html?command=' + commandId;
 };
 
-const writeToClipboard = (command) => {
+const writeToClipboard = (command, commandId) => {
   navigator.clipboard.writeText(command);
-  let card = document.getElementById(command);
+  let card = document.getElementById(commandId);
   if (card.classList.contains('copyConfirmation'))
     card.classList.remove('copyConfirmation');
   card.classList.add('copyConfirmation');
