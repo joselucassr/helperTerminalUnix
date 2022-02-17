@@ -11,7 +11,7 @@
   <body>
     <div id="container">
       <div
-        onclick="window.location.href = '/index.html'"
+        onclick="window.location.href = '/helperTerminalUnix/'"
         class="pointer"
         id="mainPageButton"
       >
@@ -25,7 +25,7 @@
       let url = new URL(url_string);
       let commandId = url.searchParams.get('command');
 
-      fetch(`/commands/${commandId}.txt`)
+      fetch(`/helperTerminalUnix/commands/${commandId}.txt`)
         .then((response) => response.text())
         .then((data) => {
           let arr = data.split(/\n/g);
@@ -109,7 +109,7 @@
             let commandId = line.match(/(?<=@ref\().*?(?=\))/);
 
             do {
-              let linkText = `<a href="/commandPage.html?command=${commandId}" class="blueHightlight"></a>`;
+              let linkText = `<a href="/helperTerminalUnix/commandPage.html?command=${commandId}" class="blueHightlight"></a>`;
 
               linkText = linkText.replace(/(?<=>)[^<]*/, match[0]);
 
@@ -174,7 +174,8 @@
       };
 
       const openCommandPage = (commandId) => {
-        window.location.href = '/commandPage.html?command=' + commandId;
+        window.location.href =
+          '/helperTerminalUnix/commandPage.html?command=' + commandId;
       };
     </script>
   </body>

@@ -99,7 +99,7 @@ const writeHtml = (queryResults) => {
 };
 
 const jsonParser = async () => {
-  let res = await fetch('/commands.json');
+  let res = await fetch('/helperTerminalUnix/commands.json');
   jsonData = await res.json();
   let checker = '';
 
