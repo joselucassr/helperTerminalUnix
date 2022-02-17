@@ -91,7 +91,7 @@ const writeHtml = (queryResults) => {
     <div id="${qr.id}" class="card">
       <div class="cardFirstLine">
         <div class="purpleHighlight">~$ ${qr.name}</div>
-        <div onclick="writeToClipboard('${qr.name}', '${qr.id}')" style="width: 25px" class="pointer"><img src="copySvg.svg" alt="" /></div>
+        <div onclick="writeToClipboard(&#96;${qr.name}&#96;, '${qr.id}')" style="width: 25px" class="pointer"><img src="copySvg.svg" alt="" /></div>
       </div>
       <div>
         <div class="commentHightlight"># Basicamente</div>
