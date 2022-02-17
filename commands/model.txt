@@ -1,0 +1,21 @@
+@title ~$ ls -a
+
+# Basicamente
+Lista todos os arquivos e diretórios.
+
+# Referências
+- @ref(ls)"Ver comando: ~$ ls"
+
+# Mais a fundo
+*ls* lista arquivos e diretórios e seus metadados associados, como tamanho do arquivo, propriedade e tempo de modificação. Sem opções, ls lista os arquivos contidos no diretório atual , classificando-os em ordem alfabética.
+
+# Exemplos:
+@CodeArea
+// Listar todos os diretórios e arquivos de "aluno" dentro do diretório "trybe"
+*~$ ls -a* /trybe/aluno
+@EndCodeArea
+
+# Saiba Mais:
+- @link(https://guialinux.uniriotec.br/ls/)"Guia Linux";
+- @link(https://pt.wikipedia.org/wiki/Ls)"Wikipedia";
+- @link(https://www.linuxforce.com.br/comandos-linux/comandos-linux-comando-ls/)"Linux Force";

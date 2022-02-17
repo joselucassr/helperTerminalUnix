@@ -1,0 +1,23 @@
+[
+  {
+    "id": "ls",
+    "name": "ls",
+    "tags": ["listar, ver, arquivos"],
+    "txtPath": "/commands/ls.txt",
+    "shortDescription": "Lista arquivos e diretórios."
+  },
+  {
+    "id": "ls-a",
+    "name": "ls -a",
+    "tags": ["listar, ver, arquivos, todos, ocultos"],
+    "txtPath": "/commands/ls-a.txt",
+    "shortDescription": "Lista todos os arquivos e diretórios."
+  },
+  {
+    "id": "mkdir",
+    "name": "mkdir",
+    "tags": ["criar, diretorio, diretório"],
+    "txtPath": "/commands/mkdir.txt",
+    "shortDescription": "Cria um diretório."
+  }
+]

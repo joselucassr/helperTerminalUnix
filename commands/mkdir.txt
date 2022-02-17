@@ -1,0 +1,18 @@
+@title ~$ mkdir
+
+# Basicamente
+Cria um diretório.
+
+# Mais a fundo
+*ls* lista arquivos e diretórios e seus metadados associados, como tamanho do arquivo, propriedade e tempo de modificação. Sem opções, ls lista os arquivos contidos no diretório atual , classificando-os em ordem alfabética.
+
+# Exemplos:
+@CodeArea
+// Cria um diretório com o nome "trybe" no espaço atual
+*~$ mkdir* trybe
+@EndCodeArea
+
+# Saiba Mais:
+- @link(https://guialinux.uniriotec.br/mkdir/)"Guia Linux";
+- @link(https://pt.wikipedia.org/wiki/Mkdir)"Wikipedia";
+- @link(https://www.linuxforce.com.br/comandos-linux/comandos-linux-comando-mkdir/)"Linux Force";
