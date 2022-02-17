@@ -135,7 +135,8 @@ const openCommandPage = (commandId) => {
 const writeToClipboard = (command) => {
   navigator.clipboard.writeText(command);
   let card = document.getElementById(command);
-  card.classList.remove('copyConfirmation');
+  if (card.classList.contains('copyConfirmation'))
+    card.classList.remove('copyConfirmation');
   card.classList.add('copyConfirmation');
 
   if (timeoutId) clearTimeout(timeoutId);
