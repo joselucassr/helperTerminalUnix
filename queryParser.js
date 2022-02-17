@@ -128,7 +128,8 @@ const runQuery = () => {
 document.getElementById('inputText').addEventListener('keyup', runQuery);
 
 const openCommandPage = (commandId) => {
-  window.location.href = '/commandPage.html?command=' + commandId;
+  window.location.href =
+    '/helperTerminalUnix/commandPage.html?command=' + commandId;
 };
 
 const writeToClipboard = (command) => {
