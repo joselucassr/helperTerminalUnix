@@ -1,0 +1,14 @@
+@title ~$ man comando
+
+# Basicamente
+Lê a página do manual online do comando informado.
+
+# Exemplos:
+@CodeArea
+// Será exibido o manual do comando "ls"
+*~$ man* ls
+@EndCodeArea
+
+# Saiba Mais:
+
+@groupExtLinks(man)

@@ -1,0 +1,14 @@
+@title ~$ rm arquivo
+
+# Basicamente
+Remove um arquivo.
+
+# Exemplos:
+@CodeArea
+// O "arquivo.txt" será apagado
+*~$ rm* arquivo.txt
+@EndCodeArea
+
+# Saiba Mais:
+
+@groupExtLinks(rm)

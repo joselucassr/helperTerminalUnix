@@ -1,0 +1,15 @@
+@title ~$ wc arquivo
+
+# Basicamente
+Conta o número de linhas / palavras / caracteres no arquivo.
+
+# Exemplos:
+@CodeArea
+// No retorno, será exibido na primeira coluna as linhas, na segunda
+// coluna as palavras e na terceira os caracteres, do "arquivo.txt"
+*~$ wc* arquivo.txt
+@EndCodeArea
+
+# Saiba Mais:
+
+@groupExtLinks(wc)

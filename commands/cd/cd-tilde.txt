@@ -1,0 +1,27 @@
+@title ~$ cd ~
+
+# Basicamente
+Muda para o diretório inicial.
+
+# Variações
+
+@group(cd)
+
+# Mais a fundo
+*cd* significa "change directory", que pode ser traduzido para "mudar diretório", e em conjunto ao comando @ref(ls)"ls" é a principal forma de se mover entre diretórios.
+*cd* sozinho tem o mesmo comportamento de "cd ~", e leva o usuário para o diretório inicial.
+
+# Exemplos:
+@CodeArea
+// Mudar para diretório inicial
+*~$ cd* ~ 
+@EndCodeArea
+
+@CodeArea
+// Mesmo comportamento ir para o diretório inicial
+*~$ cd* 
+@EndCodeArea
+
+# Saiba Mais:
+
+@groupExtLinks(cd)

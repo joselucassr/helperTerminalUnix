@@ -1,21 +1,25 @@
-@title ~$ ls -a
+@title ~$ model
 
 # Basicamente
-Lista todos os arquivos e diretórios.
+Desenvolvimento.
 
-# Referências
-- @ref(ls)"Ver comando: ~$ ls"
+# Grupo
+
+@group(cd)
+
+# Variações
+
+- @ref(#)"Teste1" @ref(#)"Teste2" @ref(#)"Teste3"@ref(#)"Teste4"
 
 # Mais a fundo
-*ls* lista arquivos e diretórios e seus metadados associados, como tamanho do arquivo, propriedade e tempo de modificação. Sem opções, ls lista os arquivos contidos no diretório atual , classificando-os em ordem alfabética.
+*Lorem ipsum* dolor sit amet, *consectetur adipiscing elit.* @ref(#)"Etiam dui mauris", accumsan a lacus quis, euismod cursus nulla. Integer metus arcu, dictum id felis eu, ultricies fringilla purus.
 
 # Exemplos:
 @CodeArea
-// Listar todos os diretórios e arquivos de "aluno" dentro do diretório "trybe"
-*~$ ls -a* /trybe/aluno
+// Lorem ipsum dolor sit amet, *consectetur adipiscing elit
+*~$ model* Lorem ipsum dolor sit amet
 @EndCodeArea
 
 # Saiba Mais:
-- @link(https://guialinux.uniriotec.br/ls/)"Guia Linux";
-- @link(https://pt.wikipedia.org/wiki/Ls)"Wikipedia";
-- @link(https://www.linuxforce.com.br/comandos-linux/comandos-linux-comando-ls/)"Linux Force";
+
+- @link(#)"Teste1" @link(#)"Teste2" @link(#)"Teste3"@link(#)"Teste4"

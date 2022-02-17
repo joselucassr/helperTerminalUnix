@@ -1,0 +1,14 @@
+@title ~$ apropos 'palavras-chave'
+
+# Basicamente
+Corresponde a comandos com palavras-chave em suas páginas de manual.
+
+# Exemplos:
+@CodeArea
+// Serão exibidos os comandos relacionados a "listagem" e a "diretórios"
+*~$ apropos* 'list directory'
+@EndCodeArea
+
+# Saiba Mais:
+
+@groupExtLinks(apropos)

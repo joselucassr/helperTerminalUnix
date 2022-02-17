@@ -1,0 +1,210 @@
+[
+  {
+    "id": "cd",
+    "links": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cd_(comando)",
+        "displayText": "Wikipedia"
+      },
+      {
+        "url": "https://www.linuxforce.com.br/comandos-linux/comandos-linux-comando/",
+        "displayText": "Guia Linux"
+      }
+    ]
+  },
+  {
+    "id": "ls",
+    "links": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ls",
+        "displayText": "Wikipedia"
+      },
+      {
+        "url": "https://www.linuxforce.com.br/comandos-linux/comandos-linux-comando-ls/",
+        "displayText": "Guia Linux"
+      }
+    ]
+  },
+  {
+    "id": "pwd",
+    "links": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pwd",
+        "displayText": "Wikipedia"
+      },
+      {
+        "url": "https://guialinux.uniriotec.br/pwd/",
+        "displayText": "Guia Linux"
+      }
+    ]
+  },
+  {
+    "id": "cp",
+    "links": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cp_(Unix)",
+        "displayText": "Wikipedia"
+      },
+      {
+        "url": "https://guialinux.uniriotec.br/cp/",
+        "displayText": "Guia Linux"
+      }
+    ]
+  },
+  {
+    "id": "mv",
+    "links": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Mv_(Unix)",
+        "displayText": "Wikipedia"
+      },
+      {
+        "url": "https://guialinux.uniriotec.br/mv/",
+        "displayText": "Guia Linux"
+      }
+    ]
+  },
+  {
+    "id": "rm",
+    "links": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Rm_(Unix)",
+        "displayText": "Wikipedia"
+      },
+      {
+        "url": "https://guialinux.uniriotec.br/rm/",
+        "displayText": "Guia Linux"
+      }
+    ]
+  },
+  {
+    "id": "rmdir",
+    "links": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Rmdir",
+        "displayText": "Wikipedia"
+      },
+      {
+        "url": "https://guialinux.uniriotec.br/rmdir/",
+        "displayText": "Guia Linux"
+      }
+    ]
+  },
+  {
+    "id": "cat",
+    "links": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cat_(Unix)",
+        "displayText": "Wikipedia"
+      },
+      {
+        "url": "https://guialinux.uniriotec.br/cat/",
+        "displayText": "Guia Linux"
+      }
+    ]
+  },
+  {
+    "id": "less",
+    "links": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Less_(Unix)",
+        "displayText": "Wikipedia"
+      },
+      {
+        "url": "https://guialinux.uniriotec.br/less/",
+        "displayText": "Guia Linux"
+      }
+    ]
+  },
+  {
+    "id": "head",
+    "links": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Head_(Unix)",
+        "displayText": "Wikipedia"
+      },
+      {
+        "url": "https://guialinux.uniriotec.br/head/",
+        "displayText": "Guia Linux"
+      }
+    ]
+  },
+  {
+    "id": "tail",
+    "links": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tail",
+        "displayText": "Wikipedia"
+      },
+      {
+        "url": "https://guialinux.uniriotec.br/tail/",
+        "displayText": "Guia Linux"
+      }
+    ]
+  },
+  {
+    "id": "grep",
+    "links": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Grep",
+        "displayText": "Wikipedia"
+      },
+      {
+        "url": "https://guialinux.uniriotec.br/grep/",
+        "displayText": "Guia Linux"
+      }
+    ]
+  },
+  {
+    "id": "wc",
+    "links": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Wc",
+        "displayText": "Wikipedia"
+      },
+      {
+        "url": "https://guialinux.uniriotec.br/wc/",
+        "displayText": "Guia Linux"
+      }
+    ]
+  },
+  {
+    "id": "man",
+    "links": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Man_(Unix)",
+        "displayText": "Wikipedia"
+      },
+      {
+        "url": "https://guialinux.uniriotec.br/man/",
+        "displayText": "Guia Linux"
+      }
+    ]
+  },
+  {
+    "id": "whatis",
+    "links": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Whatis",
+        "displayText": "Wikipedia"
+      },
+      {
+        "url": "https://guialinux.uniriotec.br/whatis/",
+        "displayText": "Guia Linux"
+      }
+    ]
+  },
+  {
+    "id": "apropos",
+    "links": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Apropos_(Unix)",
+        "displayText": "Wikipedia"
+      },
+      {
+        "url": "https://guialinux.uniriotec.br/apropos/                                                                                                 ",
+        "displayText": "Guia Linux"
+      }
+    ]
+  }
+]

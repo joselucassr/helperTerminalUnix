@@ -15,168 +15,18 @@
         class="pointer"
         id="mainPageButton"
       >
-        cd ../Página principal
+        cd ~/Página principal
       </div>
       <div id="commandPageBackground"></div>
     </div>
 
+    <script src="buildCommandPage.js"></script>
     <script>
       let url_string = window.location.href; //window.location.href
       let url = new URL(url_string);
       let commandId = url.searchParams.get('command');
 
-      fetch(`/helperTerminalUnix/commands/${commandId}.txt`)
-        .then((response) => response.text())
-        .then((data) => {
-          let arr = data.split(/\n/g);
-
-          let fullHtmlString = '';
-
-          for (let i = 0; i < arr.length; i++) {
-            //console.log('Line Number [' + i + ']: ' + arr[i]);
-            let partialHtmlString = getPartialHtmlString(arr[i]);
-
-            if (partialHtmlString) fullHtmlString += partialHtmlString;
-          }
-          let containerElement = document.getElementById(
-            'commandPageBackground',
-          );
-
-          //console.log(fullHtmlString);
-
-          // Add code areas
-          if (fullHtmlString.match(/@CodeArea(.*?)@EndCodeArea/)) {
-            let regex = /@CodeArea(.*?)@EndCodeArea/;
-            let match = regex.exec(fullHtmlString);
-
-            do {
-              let codeAreaDiv = '<div class="codeArea"></div>';
-              codeAreaDiv = codeAreaDiv.replace(/(?<=>)[^<]*/, match[1]);
-
-              fullHtmlString = fullHtmlString.replace(match[0], codeAreaDiv);
-
-              match = regex.exec(fullHtmlString);
-            } while (match !== null && match.length > 0);
-          }
-
-          containerElement.innerHTML = fullHtmlString.trim();
-        });
-
-      const getPartialHtmlString = (line) => {
-        if (line.match(/@title /g)) {
-          let titleDiv = '<div class="commandPageTitle"></div>';
-          return titleDiv.replace(/(?<=>)[^<]*/, line.match(/(?<=@title ).*/));
-        }
-
-        if (line.match(/#/g)) {
-          let subTitleDiv = '<div class="commandSubTitle"></div>';
-          return subTitleDiv.replace(/(?<=>)[^<]*/, line);
-        }
-
-        if (line.match(/@CodeArea/g) || line.match(/@End/g)) return line;
-        if (line.length > 0) {
-          let text = '<p></p>';
-          text = text.replace(/(?<=>)[^<]*/, line);
-
-          // In case of a link
-          if (line.match(/@link/g)) {
-            let regex = /(?<=@link(.*\)")).*?(?=")/;
-            let match = regex.exec(line);
-
-            let linkUrl = line.match(/(?<=@link\().*?(?=\))/);
-
-            do {
-              let linkText = `<a href="${linkUrl}" target="_blank" class="orangeHightlight"></a>`;
-
-              linkText = linkText.replace(/(?<=>)[^<]*/, match[0]);
-
-              text = text.replace(
-                text.match(/(?=@link\().*?(?<=\)").*?"/),
-                linkText,
-              );
-              match = regex.exec(text);
-            } while (match !== null && match.length > 0);
-          }
-
-          // In case of a ref
-
-          if (line.match(/@ref/g)) {
-            let regex = /(?<=@ref(.*\)")).*?(?=")/;
-            let match = regex.exec(line);
-
-            console.log(match[0]);
-
-            let commandId = line.match(/(?<=@ref\().*?(?=\))/);
-
-            do {
-              let linkText = `<a href="/helperTerminalUnix/commandPage.html?command=${commandId}" class="blueHightlight"></a>`;
-
-              linkText = linkText.replace(/(?<=>)[^<]*/, match[0]);
-
-              text = text.replace(
-                text.match(/(?=@ref\().*?(?<=\)").*?"/),
-                linkText,
-              );
-              match = regex.exec(text);
-            } while (match !== null && match.length > 0);
-          }
-
-          // if (line.match(/@ref/g)) {
-          //   let commandId = line.match(/(?<=@ref\().*(?=\))/);
-          //   let linkText = `<a href="/commandPage.html?command=${commandId}"  class="blueHightlight"></a>`;
-
-          //   linkText = linkText.replace(
-          //     /(?<=>)[^<]*/,
-          //     line.match(/(?<=@ref(.*\)))[^\s]+/)[0],
-          //   );
-
-          //   text = text.replace(/@ref\(\S+/, linkText);
-          // }
-
-          // In case of a comment
-          if (line.match(/(?<!https:)(?=\/\/).*/)) {
-            let commentedText = '<span class="commentHightlight"></span>';
-            commentedText = commentedText.replace(
-              /(?<=>)[^<]*/,
-              line.match(/(?<!https:)(?=\/\/).*/),
-            );
-
-            text = text.replace(
-              /(?<!https:)(?=\/\/).*(?=<\/p>)/,
-              commentedText,
-            );
-          }
-
-          // In case of a highlight
-          if (line.match(/\*(.*?)\*/)) {
-            let regex = /\*(.*?)\*/;
-            let match = regex.exec(line);
-
-            do {
-              let highlightedText = '<span class="purpleHighlight"></span>';
-
-              highlightedText = highlightedText.replace(
-                /(?<=>)[^<]*/,
-                match[1],
-              );
-
-              text = text.replace(match[0], highlightedText);
-              match = regex.exec(text);
-            } while (match !== null && match.length > 0);
-          }
-
-          return text;
-        }
-
-        if (line.length == 0) {
-          return '<br />';
-        }
-      };
-
-      const openCommandPage = (commandId) => {
-        window.location.href =
-          '/helperTerminalUnix/commandPage.html?command=' + commandId;
-      };
+      renderPage(commandId);
     </script>
   </body>
 </html>

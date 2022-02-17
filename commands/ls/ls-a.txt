@@ -1,0 +1,17 @@
+@title ~$ ls -a
+
+# Basicamente
+Lista todos os arquivos e diretórios.
+
+# Variações
+- @ref(ls)"Ver comando: ~$ ls"
+
+# Exemplos:
+@CodeArea
+// Listar todos os diretórios e arquivos de "estudante" dentro do diretório "trybe"
+*~$ ls -a* /trybe/estudante
+@EndCodeArea
+
+# Saiba Mais:
+
+@groupExtLinks(ls)

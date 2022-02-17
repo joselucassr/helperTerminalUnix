@@ -1,0 +1,4 @@
+{
+  // the main folder has to be "helperTerminalUnix" in orther to emulate github pages behavior
+  "liveServer.settings.root": "../"
+}

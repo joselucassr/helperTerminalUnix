@@ -1,0 +1,14 @@
+@title ~$ pwd
+
+# Basicamente
+Mostra o caminho do diretório atual.
+
+# Exemplos:
+@CodeArea
+// O comando abaixo retornaria: /home/usuario/trybe/estudante
+*~/trybe/estudante$ pwd*
+@EndCodeArea
+
+# Saiba Mais:
+
+@groupExtLinks(pwd)

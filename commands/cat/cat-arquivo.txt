@@ -1,0 +1,14 @@
+@title ~$ cat arquivo
+
+# Basicamente
+Exibe um arquivo.
+
+# Exemplos:
+@CodeArea
+// O "arquivo.txt" será exibido no terminal
+*~$ cat* arquivo.txt
+@EndCodeArea
+
+# Saiba Mais:
+
+@groupExtLinks(cat)

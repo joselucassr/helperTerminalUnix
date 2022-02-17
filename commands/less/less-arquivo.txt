@@ -1,0 +1,14 @@
+@title ~$ less arquivo
+
+# Basicamente
+Exibe um arquivo, uma página por vez.
+
+# Exemplos:
+@CodeArea
+// O "arquivo.txt" será exibido no terminal em páginas
+*~$ less* arquivo.txt
+@EndCodeArea
+
+# Saiba Mais:
+
+@groupExtLinks(less)

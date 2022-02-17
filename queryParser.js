@@ -1,6 +1,6 @@
 let jsonData;
 
-const queryFunction = (checker, data) => {
+const queryFunction = async (checker, data) => {
   let completeQueryResult = [];
   data = data.sort((a, b) => {
     if (a.name > b.name) {
@@ -30,17 +30,26 @@ const queryFunction = (checker, data) => {
 
   regexChecker = new RegExp(regexChecker);
 
-  // console.log('regexChecker', regexChecker);
+  console.log('regexChecker', regexChecker);
 
-  let filteredByTags = data.filter((c) =>
-    c.tags.some((t) => {
-      // console.log('t', t);
-      // console.log('t.match(regexChecker)', t.match(regexChecker));
-      return t.match(regexChecker);
-    }),
-  );
+  let res = await fetch('/helperTerminalUnix/groupTags.json');
+  jsonGroupData = await res.json();
 
-  // console.log('filteredByTags', filteredByTags);
+  let filteredByTags = data.filter((c) => {
+    let groupTags = jsonGroupData.find((g) => g.id === c.group);
+
+    if (!c.removeGroupTags) {
+      if (groupTags) {
+        if (c.tags != undefined) c.tags += `, ${groupTags.tags}`;
+        else c.tags = groupTags.tags;
+      }
+    }
+    if (!c.tags) return false;
+
+    return c.tags.match(regexChecker) !== null;
+  });
+
+  console.log('filteredByTags', filteredByTags);
 
   let prepFilteredByTags = [];
 
@@ -55,7 +64,7 @@ const queryFunction = (checker, data) => {
   filteredByName.forEach((f) => completeQueryResult.push(f));
   prepFilteredByTags.forEach((p) => completeQueryResult.push(p));
 
-  // console.log(completeQueryResult);
+  console.log(completeQueryResult);
   writeHtml(completeQueryResult);
 };
 
@@ -72,14 +81,19 @@ const writeHtml = (queryResults) => {
   // console.log(queryResults);
   let fullHtmlString = '';
 
+  if (queryResults.length == 0)
+    fullHtmlString = `
+      <div class="redHighlight bold">sem resultados :(</div>
+    `;
+
   queryResults.forEach((qr) => {
     fullHtmlString += `
-      <div id="${qr.id}" class="card">
-        <div class="cardFirstLine">
-          <div class="purpleHighlight">~$ ${qr.name}</div>
-          <div onclick="writeToClipboard('${qr.name}', '${qr.id}')" style="width: 25px" class="pointer"><img src="copySvg.svg" alt="" /></div>
-        </div>
-        <div>
+    <div id="${qr.id}" class="card">
+    <div class="cardFirstLine">
+    <div class="purpleHighlight">~$ ${qr.name}</div>
+    <div onclick="writeToClipboard('${qr.name}', '${qr.id}')" style="width: 25px" class="pointer"><img src="copySvg.svg" alt="" /></div>
+    </div>
+    <div>
           <div class="commentHightlight"># Basicamente</div>
           <div>${qr.shortDescription}</div>
         </div>
@@ -87,15 +101,13 @@ const writeHtml = (queryResults) => {
           <div>/*</div>
           <div>Clique para ver mais</div>
           <div>*/</div>
-        </div>
-      </div>
-    `;
+          </div>
+          </div>
+          `;
   });
 
   let containerElement = document.getElementById('commandCards');
   containerElement.innerHTML = fullHtmlString.trim();
-
-  // console.log(fullHtmlString);
 };
 
 const jsonParser = async () => {

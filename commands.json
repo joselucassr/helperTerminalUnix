@@ -2,22 +2,129 @@
   {
     "id": "ls",
     "name": "ls",
-    "tags": ["listar, ver, arquivos"],
-    "txtPath": "/commands/ls.txt",
-    "shortDescription": "Lista arquivos e diretórios."
+    "tags": "listar, ver, arquivos",
+    "shortDescription": "Lista arquivos e diretórios.",
+    "group": "ls"
   },
   {
     "id": "ls-a",
     "name": "ls -a",
-    "tags": ["listar, ver, arquivos, todos, ocultos"],
-    "txtPath": "/commands/ls-a.txt",
-    "shortDescription": "Lista todos os arquivos e diretórios."
+    "tags": "todos, ocultos",
+    "shortDescription": "Lista todos os arquivos e diretórios.",
+    "group": "ls"
   },
   {
     "id": "mkdir",
     "name": "mkdir",
-    "tags": ["criar, diretorio, diretório"],
-    "txtPath": "/commands/mkdir.txt",
+    "tags": "criar, diretorio, diretório",
     "shortDescription": "Cria um diretório."
+  },
+  {
+    "id": "cd",
+    "name": "cd",
+    "shortDescription": "Muda para o diretório inicial.",
+    "group": "cd"
+  },
+  {
+    "id": "cd-tilde",
+    "name": "cd ~",
+    "shortDescription": "Muda para o diretório inicial.",
+    "group": "cd"
+  },
+  {
+    "id": "cd-diretorio",
+    "name": "cd diretório",
+    "shortDescription": "Muda para o diretório nomeado.",
+    "group": "cd"
+  },
+  {
+    "id": "cd-2dots",
+    "name": "cd ..",
+    "shortDescription": "Muda para o diretório pai.",
+    "group": "cd"
+  },
+  {
+    "id": "pwd",
+    "name": "pwd",
+    "shortDescription": "Mostra o caminho do diretório atual.",
+    "group": "pwd"
+  },
+  {
+    "id": "cp-arq1-arq2",
+    "name": "cp arquivo1 arquivo2",
+    "shortDescription": "Copia arquivo1 e o chama de arquivo2.",
+    "group": "cp"
+  },
+  {
+    "id": "mv-arq1-arq2",
+    "name": "mv arquivo1 arquivo2",
+    "shortDescription": "Move ou renomeia arquivo1 para arquivo2.",
+    "group": "mv"
+  },
+  {
+    "id": "rm-arquivo",
+    "name": "rm arquivo",
+    "shortDescription": "Remove um arquivo.",
+    "group": "rm"
+  },
+  {
+    "id": "rmdir-diretorio",
+    "name": "rmdir diretório",
+    "shortDescription": "Remove um diretório.",
+    "group": "rmdir"
+  },
+  {
+    "id": "cat-arquivo",
+    "name": "cat arquivo",
+    "shortDescription": "Exibe um arquivo.",
+    "group": "cat"
+  },
+  {
+    "id": "less-arquivo",
+    "name": "less arquivo",
+    "shortDescription": "Exibe um arquivo, uma página por vez.",
+    "group": "less"
+  },
+  {
+    "id": "head-arquivo",
+    "name": "head arquivo",
+    "shortDescription": "Exibe as primeiras linhas de um arquivo.",
+    "group": "head"
+  },
+  {
+    "id": "tail-arquivo",
+    "name": "tail arquivo",
+    "shortDescription": "Exibe as últimas linhas de um arquivo.",
+    "group": "tail"
+  },
+  {
+    "id": "grep-pchave-arquivo",
+    "name": "grep 'palavras-chave' arquivo",
+    "shortDescription": "Procura por palavras-chave no arquivo.",
+    "group": "grep"
+  },
+  {
+    "id": "wc-arquivo",
+    "name": "wc arquivo",
+    "shortDescription": "Conta o número de linhas / palavras / caracteres no arquivo.",
+    "group": "wc"
+  },
+  {
+    "id": "man-comando",
+    "name": "man comando",
+    "shortDescription": "Lê a página do manual online do comando informado.",
+    "group": "man"
+  },
+  {
+    "id": "whatis-comando",
+    "name": "whatis comando",
+    "shortDescription": "Breve descrição do comando informado.",
+    "group": "whatis"
+  },
+  {
+    "id": "apropos-pchave",
+    "name": "apropos 'palavras-chave'",
+    "shortDescription": "Corresponde a comandos com palavras-chave em suas páginas de manual.",
+    "group": "apropos"
   }
 ]

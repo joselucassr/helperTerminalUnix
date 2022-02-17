@@ -1,0 +1,15 @@
+@title ~$ grep 'palavras-chave' arquivo
+
+# Basicamente
+Procura por palavras-chave no arquivo.                
+
+# Exemplos:
+@CodeArea
+// A palavra "javascript" será procurada no "arquivo.txt" 
+// e a linha que contiver o valor será exibida
+*~$ grep* 'javascript' arquivo.txt
+@EndCodeArea
+
+# Saiba Mais:
+
+@groupExtLinks(grep)

@@ -1,0 +1,14 @@
+@title ~$ whatis comando
+
+# Basicamente
+Breve descrição do comando informado.
+
+# Exemplos:
+@CodeArea
+// Será exibida uma breve descrição do comando "ls"
+*~$ whatis* ls
+@EndCodeArea
+
+# Saiba Mais:
+
+@groupExtLinks(whatis)

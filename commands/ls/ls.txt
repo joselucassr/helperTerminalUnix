@@ -8,12 +8,11 @@ Lista arquivos e diretórios.
 
 # Exemplos:
 @CodeArea
-// Listar os diretórios e arquivos de "aluno"
+// Listar os diretórios e arquivos de "estudante"
 // dentro do diretório "trybe"
-*~$ ls* /trybe/aluno
+*~$ ls* /trybe/estudante
 @EndCodeArea
 
 # Saiba Mais:
-- @link(https://guialinux.uniriotec.br/ls/)"Guia Linux";
-- @link(https://pt.wikipedia.org/wiki/Ls)"Wikipedia";
-- @link(https://www.linuxforce.com.br/comandos-linux/comandos-linux-comando-ls/)"Linux Force";
+
+@groupExtLinks(ls)

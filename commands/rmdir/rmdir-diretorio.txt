@@ -1,0 +1,14 @@
+@title ~$ rmdir diretório
+
+# Basicamente
+Remove um diretório.
+
+# Exemplos:
+@CodeArea
+// O "trybe" será apagado
+*~$ rmdir* trybe
+@EndCodeArea
+
+# Saiba Mais:
+
+@groupExtLinks(rmdir)

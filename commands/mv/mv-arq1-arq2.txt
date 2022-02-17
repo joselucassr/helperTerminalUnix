@@ -1,0 +1,14 @@
+@title ~$ mv arquivo1 arquivo2
+
+# Basicamente
+Move ou renomeia arquivo1 para arquivo2.
+
+# Exemplos:
+@CodeArea
+// O "arquivo1.txt" será renomeado para "arquivo2.txt"
+*~$ mv* arquivo1.txt arquivo2.txt
+@EndCodeArea
+
+# Saiba Mais:
+
+@groupExtLinks(mv)

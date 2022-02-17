@@ -1,0 +1,66 @@
+[
+  {
+    "id": "cd",
+    "tags": "mover, diretorios, diretórios, deslocar"
+  },
+  {
+    "id": "ls",
+    "tags": "listar, ver, arquivos, diretórios, diretorios"
+  },
+  {
+    "id": "pwd",
+    "tags": "caminho, ver, arquivos, diretórios, diretorios"
+  },
+  {
+    "id": "cp",
+    "tags": "copiar, duplicar, colar"
+  },
+  {
+    "id": "mv",
+    "tags": "mover, renomear"
+  },
+  {
+    "id": "rm",
+    "tags": "apagar, remover, deletar, arquivos"
+  },
+  {
+    "id": "rmdir",
+    "tags": "apagar, remover, deletar, diretórios, diretorios"
+  },
+  {
+    "id": "cat",
+    "tags": "exibir, mostrar, ver, arquivos"
+  },
+  {
+    "id": "less",
+    "tags": "exibir, mostrar, ver, arquivos, páginas, paginas, menos"
+  },
+  {
+    "id": "head",
+    "tags": "exibir, mostrar, ver, arquivos, primeiras, linhas"
+  },
+  {
+    "id": "tail",
+    "tags": "exibir, mostrar, ver, arquivos, ultimas, últimas, linhas"
+  },
+  {
+    "id": "grep",
+    "tags": "buscar, encontrar, palavras, chave, arquivos"
+  },
+  {
+    "id": "wc",
+    "tags": "contar, palavras, linhas, caracteres, arquivos"
+  },
+  {
+    "id": "man",
+    "tags": "manual, comandos, ajuda"
+  },
+  {
+    "id": "whatis",
+    "tags": "descrição, comandos, ajuda"
+  },
+  {
+    "id": "apropos",
+    "tags": "buscar, pesquisar, comandos, ajuda"
+  }
+]

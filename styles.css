@@ -39,6 +39,10 @@ p {
   color: #50fa7b;
 }
 
+.redHighlight {
+  color: #ff5555;
+}
+
 .purpleHighlight {
   color: #bd93f9;
 }
@@ -98,7 +102,7 @@ input:focus-visible {
 }
 
 .cardFirstLine {
-  font-size: 30px;
+  font-size: 24px;
   display: flex;
   justify-content: space-between;
 }
@@ -214,6 +218,6 @@ input:focus-visible {
   }
 
   .card {
-    width: 33%;
+    width: 40%;
   }
 }
