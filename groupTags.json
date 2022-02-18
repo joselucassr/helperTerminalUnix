@@ -8,6 +8,10 @@
     "tags": "listar, ver, arquivos, diretórios, diretorios"
   },
   {
+    "id": "mkdir",
+    "tags": "criar, diretorio, diretório"
+  },
+  {
     "id": "pwd",
     "tags": "caminho, ver, arquivos, diretórios, diretorios"
   },

@@ -2,7 +2,6 @@
   {
     "id": "ls",
     "name": "ls",
-    "tags": "listar, ver, arquivos",
     "shortDescription": "Lista arquivos e diretórios.",
     "group": "ls"
   },
@@ -16,8 +15,8 @@
   {
     "id": "mkdir",
     "name": "mkdir",
-    "tags": "criar, diretorio, diretório",
-    "shortDescription": "Cria um diretório."
+    "shortDescription": "Cria um diretório.",
+    "group": "mkdir"
   },
   {
     "id": "cd",

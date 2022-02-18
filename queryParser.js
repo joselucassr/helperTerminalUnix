@@ -141,7 +141,7 @@ const runQuery = () => {
   timeoutId = setTimeout(() => {
     // console.log(checker);
     queryFunction(checker, jsonData);
-  }, 1000);
+  }, 400);
 };
 
 document.getElementById('inputText').addEventListener('keyup', runQuery);
