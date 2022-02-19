@@ -1,0 +1,14 @@
+@title ~$ comando >> arquivo
+
+# Basicamente
+Anexa a saída padrão a um arquivo.
+
+# Exemplos:
+@CodeArea
+// O texto passado ao comando cat será anexado ao "arquivo.txt"
+*~$ cat >>* arquivo.txt
+@EndCodeArea
+
+# Saiba Mais:
+
+@groupExtLinks(maiorq)
