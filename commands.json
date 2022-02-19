@@ -157,5 +157,11 @@
     "name": "comando &",
     "shortDescription": "Executa o comando em segundo plano.",
     "group": "ampersand"
+  },
+  {
+    "id": "touch-arquivo",
+    "name": "touch arquivo",
+    "shortDescription": "Cria um arquivo.",
+    "group": "touch"
   }
 ]

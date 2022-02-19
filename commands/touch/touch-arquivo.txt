@@ -1,0 +1,14 @@
+@title ~$ touch arquivo
+
+# Basicamente
+Cria um arquivo.
+
+# Exemplos:
+@CodeArea
+// O "arquivo.txt" será criado
+*~$ touch* arquivo.txt
+@EndCodeArea
+
+# Saiba Mais:
+
+@groupExtLinks(touch)
