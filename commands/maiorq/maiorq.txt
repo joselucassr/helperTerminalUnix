@@ -5,8 +5,8 @@ Redireciona a saída padrão para um arquivo.
 
 # Exemplos:
 @CodeArea
-// O texto passado ao comando cat será anexado ao "arquivo.txt"
-*~$ cat* arquivo.txt
+// O texto passado ao comando cat será atribuído ao "arquivo.txt"
+*~$ cat >* arquivo.txt
 @EndCodeArea
 
 # Saiba Mais:
