@@ -1,0 +1,14 @@
+@title ~$ comando &
+
+# Basicamente
+Executa o comando em segundo plano.
+
+# Exemplos:
+@CodeArea
+// O slack será instalado em segundo plano
+*~$* sudo snap install slack --classic *&*
+@EndCodeArea
+
+# Saiba Mais:
+
+@groupExtLinks(ampersand)

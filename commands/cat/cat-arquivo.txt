@@ -3,6 +3,10 @@
 # Basicamente
 Exibe um arquivo.
 
+# Grupo
+
+@group(cat)
+
 # Exemplos:
 @CodeArea
 // O "arquivo.txt" será exibido no terminal

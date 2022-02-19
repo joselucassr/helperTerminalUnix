@@ -79,6 +79,14 @@
     "group": "cat"
   },
   {
+    "id": "cat-arquivo1-arquivo2-maiorq-arquivo3",
+    "name": "cat arquivo1 arquivo2 > arquivo3",
+    "shortDescription": "Concatena arquivo1 e arquivo2 em arquivo3.",
+    "removeGroupTags": true,
+    "tags": "concatenar, arquivos, >",
+    "group": "cat"
+  },
+  {
     "id": "less-arquivo",
     "name": "less arquivo",
     "shortDescription": "Exibe um arquivo, uma página por vez.",
@@ -143,5 +151,11 @@
     "name": "comando1 | comando2",
     "shortDescription": "Canaliza a saída do comando1 para a entrada do comando2.",
     "group": "pipe"
+  },
+  {
+    "id": "ampersand",
+    "name": "comando &",
+    "shortDescription": "Executa o comando em segundo plano.",
+    "group": "ampersand"
   }
 ]

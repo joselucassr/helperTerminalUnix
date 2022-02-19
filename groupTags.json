@@ -33,7 +33,7 @@
   },
   {
     "id": "cat",
-    "tags": "exibir, mostrar, ver, arquivos"
+    "tags": "exibir, mostrar, ver, arquivos, ler"
   },
   {
     "id": "less",
@@ -78,5 +78,9 @@
   {
     "id": "pipe",
     "tags": "encadeamento, encadear, canalizar, pipe, |"
+  },
+  {
+    "id": "ampersand",
+    "tags": "&, segundo, plano, background, tarefa, task"
   }
 ]

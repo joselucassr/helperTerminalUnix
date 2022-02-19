@@ -233,5 +233,14 @@
         "displayText": "Wikipedia"
       }
     ]
+  },
+  {
+    "id": "ampersand",
+    "links": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Job_control_(Unix)",
+        "displayText": "Wikipedia"
+      }
+    ]
   }
 ]
