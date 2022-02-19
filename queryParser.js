@@ -25,7 +25,11 @@ const queryFunction = async (checker, data) => {
   let tagsArray = checker.toLowerCase().split(' ');
   let regexChecker = '';
   tagsArray.forEach((tag) => {
-    regexChecker += `(?=.*${tag})`;
+    let escape = ``;
+    if (tag == '|') {
+      escape = `\\`;
+    }
+    regexChecker += `(?=.*${escape}${tag})`;
   });
 
   regexChecker = new RegExp(regexChecker);

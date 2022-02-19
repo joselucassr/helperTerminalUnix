@@ -137,5 +137,11 @@
     "name": "comando >> arquivo",
     "shortDescription": "Anexa a saída padrão a um arquivo.",
     "group": "maiorqmaiorq"
+  },
+  {
+    "id": "pipe",
+    "name": "comando1 | comando2",
+    "shortDescription": "Canaliza a saída do comando1 para a entrada do comando2.",
+    "group": "pipe"
   }
 ]

@@ -224,5 +224,14 @@
         "displayText": "Wikipedia"
       }
     ]
+  },
+  {
+    "id": "pipe",
+    "links": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Encadeamento_(Unix)",
+        "displayText": "Wikipedia"
+      }
+    ]
   }
 ]
