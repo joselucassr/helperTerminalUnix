@@ -9,7 +9,7 @@ Concatena arquivo1 e arquivo2 em arquivo3.
 
 # Exemplos:
 @CodeArea
-// O "arquivo3.txt"será criado com os conteúdos dos
+// O "arquivo3.txt" será criado com os conteúdos dos
 // "arquivo1.txt" e "arquivo2.txt"
 *~$ cat* arquivo1.txt arquivo2.txt *>* arquivo3.txt
 @EndCodeArea
