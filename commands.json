@@ -125,5 +125,11 @@
     "name": "apropos 'palavras-chave'",
     "shortDescription": "Corresponde a comandos com palavras-chave em suas páginas de manual.",
     "group": "apropos"
+  },
+  {
+    "id": "maiorq",
+    "name": "comando > arquivo",
+    "shortDescription": "Redireciona a saída padrão para um arquivo.",
+    "group": "maiorq"
   }
 ]

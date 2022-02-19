@@ -66,5 +66,9 @@
   {
     "id": "apropos",
     "tags": "buscar, pesquisar, comandos, ajuda"
+  },
+  {
+    "id": "maiorq",
+    "tags": "redirecionar, comandos, maior, que, >"
   }
 ]

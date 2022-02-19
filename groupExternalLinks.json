@@ -202,8 +202,17 @@
         "displayText": "Wikipedia"
       },
       {
-        "url": "https://guialinux.uniriotec.br/apropos/                                                                                                 ",
+        "url": "https://guialinux.uniriotec.br/apropos/",
         "displayText": "Guia Linux"
+      }
+    ]
+  },
+  {
+    "id": "maiorq",
+    "links": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Redirecionamento_(computa%C3%A7%C3%A3o)",
+        "displayText": "Wikipedia"
       }
     ]
   }
