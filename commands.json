@@ -163,5 +163,11 @@
     "name": "touch arquivo",
     "shortDescription": "Cria um arquivo.",
     "group": "touch"
+  },
+  {
+    "id": "find-caminho-expressaoDeBusca",
+    "name": "find caminho [expressão de busca]",
+    "shortDescription": "Realiza uma busca baseado nos parâmetros escritos.",
+    "group": "find"
   }
 ]

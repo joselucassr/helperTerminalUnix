@@ -251,5 +251,14 @@
         "displayText": "Wikipedia"
       }
     ]
+  },
+  {
+    "id": "find",
+    "links": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Find",
+        "displayText": "Wikipedia"
+      }
+    ]
   }
 ]

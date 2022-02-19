@@ -86,5 +86,9 @@
   {
     "id": "touch",
     "tags": "criar, arquivo"
+  },
+  {
+    "id": "find",
+    "tags": "encontrar, buscar, procurar, arquivos, diretórios, diretorios"
   }
 ]
