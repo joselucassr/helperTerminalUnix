@@ -13,6 +13,13 @@
     "group": "ls"
   },
   {
+    "id": "ls-l",
+    "name": "ls -l",
+    "tags": "permissões, permissoes, direitos, acesso",
+    "shortDescription": "Lista direitos de acesso para os arquivos.",
+    "group": "ls"
+  },
+  {
     "id": "mkdir",
     "name": "mkdir",
     "shortDescription": "Cria um diretório.",

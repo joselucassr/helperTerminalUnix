@@ -1,0 +1,19 @@
+@title ~$ ls -l
+
+# Basicamente
+Lista direitos de acesso para os arquivos e diretórios.
+
+# Variações
+
+@group(ls)
+
+# Exemplos:
+@CodeArea
+// Listar os direitos de acesso para todos os diretórios e 
+// arquivos de "estudante" dentro do diretório "trybe"
+@mark("~$ ls -l") /trybe/estudante
+@EndCodeArea
+
+# Saiba Mais:
+
+@groupExtLinks(ls)
