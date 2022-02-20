@@ -90,5 +90,9 @@
   {
     "id": "find",
     "tags": "encontrar, buscar, procurar, arquivos, diretórios, diretorios"
+  },
+  {
+    "id": "history",
+    "tags": "mostrar, ver, histórico, historico"
   }
 ]

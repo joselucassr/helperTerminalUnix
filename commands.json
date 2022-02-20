@@ -169,5 +169,11 @@
     "name": "find caminho [expressão de busca]",
     "shortDescription": "Realiza uma busca baseado nos parâmetros escritos.",
     "group": "find"
+  },
+  {
+    "id": "history",
+    "name": "history",
+    "shortDescription": "Mostra o histórico de comandos usados no terminal.",
+    "group": "history"
   }
 ]

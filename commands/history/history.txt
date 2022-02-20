@@ -1,0 +1,14 @@
+@title ~$ history
+
+# Basicamente
+Mostra o histórico de comandos usados no terminal.
+
+# Exemplos:
+@CodeArea
+// O histórico do terminal será retornado
+@mark("~$ history")
+@EndCodeArea
+
+# Saiba Mais:
+
+@groupExtLinks(history)

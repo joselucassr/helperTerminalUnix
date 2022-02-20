@@ -260,5 +260,14 @@
         "displayText": "Wikipedia"
       }
     ]
+  },
+  {
+    "id": "history",
+    "links": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/History_(Unix)",
+        "displayText": "Wikipedia"
+      }
+    ]
   }
 ]
