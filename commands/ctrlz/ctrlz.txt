@@ -1,0 +1,15 @@
+@title ~$ ctrl Z
+
+# Basicamente
+Suspende o trabalho em execução em primeiro plano.
+Pode ser representado como @mark("^Z").
+
+# Exemplos:
+@CodeArea
+// Suspende o trabalho em execução em primeiro plano.
+@mark("~$ ^Z")
+@EndCodeArea
+
+# Saiba Mais:
+
+@groupExtLinks(ctrlz)

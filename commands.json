@@ -220,5 +220,11 @@
     "name": "^C",
     "shortDescription": "Elimina o trabalho em execução em primeiro plano.",
     "group": "ctrlc"
+  },
+  {
+    "id": "ctrlz",
+    "name": "ctrl Z",
+    "shortDescription": "Suspende o trabalho em execução em primeiro plano.",
+    "group": "ctrlz"
   }
 ]

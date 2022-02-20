@@ -113,6 +113,10 @@
   },
   {
     "id": "ctrlc",
-    "tags": "eliminar, processos, trabalhos, execução, execucao, primeiro, plano, ^"
+    "tags": "eliminar, excluir, processos, trabalhos, execução, execucao, primeiro, plano, ^"
+  },
+  {
+    "id": "ctrlz",
+    "tags": "control, pausar, suspender, processos, trabalhos, execução, execucao, primeiro, plano, ^"
   }
 ]
