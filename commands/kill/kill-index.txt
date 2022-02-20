@@ -2,7 +2,7 @@
 
 # Basicamente
 Encerra o processo de número igual ao index, globalmente.
-O index do processo pode ser visto com o comando: @ref(ps-e)"ps -e".
+O index do processo pode ser visto com o comando: @ref(ps-aux)"ps -aux".
 
 # Variações
 
