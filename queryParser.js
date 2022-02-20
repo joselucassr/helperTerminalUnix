@@ -26,7 +26,7 @@ const queryFunction = async (checker, data) => {
   let regexChecker = '';
   tagsArray.forEach((tag) => {
     let escape = ``;
-    if (tag == '|') {
+    if (tag == '|' || tag == '^') {
       escape = `\\`;
     }
     regexChecker += `(?=.*${escape}${tag})`;
