@@ -76,6 +76,10 @@
     "tags": "redirecionar, comandos, anexar, maior, que, maior, que, >>"
   },
   {
+    "id": "menorq",
+    "tags": "redirecionar, arquivos, atribuir, menor, que, <"
+  },
+  {
     "id": "pipe",
     "tags": "encadeamento, encadear, canalizar, pipe, |"
   },

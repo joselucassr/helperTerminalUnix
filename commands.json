@@ -161,6 +161,12 @@
     "group": "maiorqmaiorq"
   },
   {
+    "id": "menorq",
+    "name": "comando < arquivo",
+    "shortDescription": "Pega o arquivo como fonte de entrada para o comando.",
+    "group": "menorq"
+  },
+  {
     "id": "pipe",
     "name": "comando1 | comando2",
     "shortDescription": "Canaliza a saída do comando1 para a entrada do comando2.",

@@ -1,0 +1,15 @@
+@title ~$ comando < arquivo
+
+# Basicamente
+Pega o arquivo como fonte de entrada para o comando.
+
+# Exemplos:
+@CodeArea
+// O texto do "arquivo.txt" será passado para o comando "cat" 
+// e será escrito no "arquivo2.txt" 
+@mark("~$ cat <") arquivo.txt @mark(">") arquivo2.txt
+@EndCodeArea
+
+# Saiba Mais:
+
+@groupExtLinks(menorq)
