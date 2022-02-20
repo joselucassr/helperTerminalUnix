@@ -323,5 +323,14 @@
         "displayText": "Linux Teaching"
       }
     ]
+  },
+  {
+    "id": "bg",
+    "links": [
+      {
+        "url": "https://guialinux.uniriotec.br/bg/",
+        "displayText": "Guia Linux"
+      }
+    ]
   }
 ]

@@ -226,5 +226,11 @@
     "name": "ctrl Z",
     "shortDescription": "Suspende o trabalho em execução em primeiro plano.",
     "group": "ctrlz"
+  },
+  {
+    "id": "bg",
+    "name": "bg",
+    "shortDescription": "Retoma os processos que estão suspensos.",
+    "group": "bg"
   }
 ]

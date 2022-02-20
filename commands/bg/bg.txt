@@ -1,0 +1,14 @@
+@title ~$ bg
+
+# Basicamente
+Retoma os processos que estão suspensos.
+
+# Exemplos:
+@CodeArea
+// Retoma o último processo suspenso em segundo plano
+@mark("~$ bg")
+@EndCodeArea
+
+# Saiba Mais:
+
+@groupExtLinks(bg)

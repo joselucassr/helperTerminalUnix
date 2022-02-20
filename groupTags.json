@@ -118,5 +118,9 @@
   {
     "id": "ctrlz",
     "tags": "control, pausar, suspender, processos, trabalhos, execução, execucao, primeiro, plano, ^"
+  },
+  {
+    "id": "bg",
+    "tags": "segundo, plano, background, retomar, retornar, processos, tarefas"
   }
 ]
