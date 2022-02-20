@@ -305,5 +305,14 @@
         "displayText": "Wikipedia"
       }
     ]
+  },
+  {
+    "id": "ctrlc",
+    "links": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Control-C",
+        "displayText": "Wikipedia"
+      }
+    ]
   }
 ]

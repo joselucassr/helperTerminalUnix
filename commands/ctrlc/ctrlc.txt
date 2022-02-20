@@ -1,0 +1,14 @@
+@title ~$ ^C
+
+# Basicamente
+Elimina o trabalho em execução em primeiro plano.
+
+# Exemplos:
+@CodeArea
+// Elimina o trabalho em execução em primeiro plano.
+@mark("~$ ^C")
+@EndCodeArea
+
+# Saiba Mais:
+
+@groupExtLinks(ctrlc)

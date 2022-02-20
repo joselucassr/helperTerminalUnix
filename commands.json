@@ -214,5 +214,11 @@
     "name": "who",
     "shortDescription": "Gera uma lista contendo informações sobre cada usuário que está ativo no sistema.",
     "group": "who"
+  },
+  {
+    "id": "ctrlc",
+    "name": "^C",
+    "shortDescription": "Elimina o trabalho em execução em primeiro plano.",
+    "group": "ctrlc"
   }
 ]

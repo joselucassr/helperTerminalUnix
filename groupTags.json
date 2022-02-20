@@ -110,5 +110,9 @@
   {
     "id": "who",
     "tags": "usuários, usuarios, informação, informacao, informações, informacoes, lista"
+  },
+  {
+    "id": "ctrlc",
+    "tags": "eliminar, processos, trabalhos, execução, execucao, primeiro, plano, ^"
   }
 ]
