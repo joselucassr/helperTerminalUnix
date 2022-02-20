@@ -264,5 +264,12 @@
     "shortDescription": "Lista processos atuais.",
     "tags": "terminal",
     "group": "ps"
+  },
+  {
+    "id": "ps-aux",
+    "name": "ps -aux",
+    "shortDescription": "Lista todos processos atuais.",
+    "tags": "todos, global, globais",
+    "group": "ps"
   }
 ]
