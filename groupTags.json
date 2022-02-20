@@ -113,7 +113,7 @@
   },
   {
     "id": "ctrlc",
-    "tags": "control, eliminar, excluir, processos, trabalhos, execução, execucao, primeiro, plano, ^"
+    "tags": "control, eliminar, encerrar, excluir, processos, trabalhos, execução, execucao, primeiro, plano, ^"
   },
   {
     "id": "ctrlz",
@@ -130,5 +130,9 @@
   {
     "id": "fg",
     "tags": "primeiro, plano, retomar, retornar, processos, tarefas"
+  },
+  {
+    "id": "kill",
+    "tags": "eliminar, encerrar, excluir, processos, tarefas"
   }
 ]

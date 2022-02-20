@@ -244,5 +244,11 @@
     "name": "fg %index",
     "shortDescription": "Retoma o processo suspenso em primeiro plano, baseado no index.",
     "group": "fg"
+  },
+  {
+    "id": "kill-percent-index",
+    "name": "kill %index",
+    "shortDescription": "Encerra o processo em segundo plano, baseado no index.",
+    "group": "kill"
   }
 ]

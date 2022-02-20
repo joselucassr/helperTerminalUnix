@@ -1,0 +1,15 @@
+@title ~$ kill %index
+
+# Basicamente
+Encerra o processo em segundo plano, baseado no index.
+O index do processo pode ser visto com o comando: @ref(jobs)"jobs".
+
+# Exemplos:
+@CodeArea
+// Encerra o processo em segundo plano de index 4
+@mark("~$ kill %4")
+@EndCodeArea
+
+# Saiba Mais:
+
+@groupExtLinks(kill)

@@ -350,5 +350,14 @@
         "displayText": "Guia Linux"
       }
     ]
+  },
+  {
+    "id": "kill",
+    "links": [
+      {
+        "url": "https://guialinux.uniriotec.br/kill/",
+        "displayText": "Guia Linux"
+      }
+    ]
   }
 ]
