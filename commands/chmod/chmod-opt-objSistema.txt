@@ -15,7 +15,7 @@ Esses números são utilizados em uma sequência de 3, com o primeiro número de
 Por exemplo, para dar todas as permissões para o usuário, apenas leitura para um grupo, e nenhuma para outros, a sequência de números seria: @mark("740").
 
 # Exemplos:
-@CodeAreachmod [options] [objeto de sistema]
+@CodeArea
 // Dar todas as permissões para o usuário, 
 // apenas leitura para um grupo e nenhuma para outros
 // para o "arquivo.txt"
