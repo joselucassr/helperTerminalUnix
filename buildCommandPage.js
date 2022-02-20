@@ -1,12 +1,6 @@
-const renderPage = async (commandId) => {
-  let res = await fetch('/helperTerminalUnix/commands.json');
-  jsonData = await res.json();
-
-  let thisCommandGroup = jsonData.find((c) => c.id === commandId).group;
-  // console.log(thisCommandGroup);
-
+const renderPage = async (commandId, commandGroup) => {
   res = await fetch(
-    `/helperTerminalUnix/commands/${thisCommandGroup}/${commandId}.txt`,
+    `/helperTerminalUnix/commands/${commandGroup}/${commandId}.txt`,
   );
   txtData = await res.text();
 

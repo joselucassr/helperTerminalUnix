@@ -20,13 +20,14 @@
       <div id="commandPageBackground"></div>
     </div>
 
-    <script src="buildCommandPage.js?v=3"></script>
+    <script src="buildCommandPage.js?v=4"></script>
     <script>
       let url_string = window.location.href; //window.location.href
       let url = new URL(url_string);
       let commandId = url.searchParams.get('command');
+      let commandGroup = url.searchParams.get('group');
 
-      renderPage(commandId);
+      renderPage(commandId, commandGroup);
     </script>
   </body>
 </html>
