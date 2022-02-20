@@ -4,7 +4,8 @@
 Lista todos os arquivos e diretórios.
 
 # Variações
-- @ref(ls)"Ver comando: ~$ ls"
+
+@group(ls)
 
 # Exemplos:
 @CodeArea

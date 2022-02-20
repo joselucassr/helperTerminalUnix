@@ -3,6 +3,9 @@
 # Basicamente
 Lista arquivos e diretórios.
 
+# Variações
+@group(ls)
+
 # Mais a fundo
 @mark("ls") lista arquivos e diretórios e seus metadados associados, como tamanho do arquivo, propriedade e tempo de modificação. Sem opções, ls lista os arquivos contidos no diretório atual , classificando-os em ordem alfabética.
 
