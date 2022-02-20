@@ -3,7 +3,7 @@
 # Basicamente
 Exibe um arquivo.
 
-# Grupo
+# Variações
 
 @group(cat)
 

@@ -3,7 +3,7 @@
 # Basicamente
 Concatena arquivo1 e arquivo2 em arquivo3.
 
-# Grupo
+# Variações
 
 @group(cat)
 
