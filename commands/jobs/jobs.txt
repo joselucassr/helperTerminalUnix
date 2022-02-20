@@ -1,0 +1,14 @@
+@title ~$ jobs
+
+# Basicamente
+Lista processos suspensos e em segundo plano.
+
+# Exemplos:
+@CodeArea
+// Lista processos suspensos e em segundo plano.
+@mark("~$ jobs")
+@EndCodeArea
+
+# Saiba Mais:
+
+@groupExtLinks(jobs)

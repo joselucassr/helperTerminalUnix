@@ -332,5 +332,14 @@
         "displayText": "Guia Linux"
       }
     ]
+  },
+  {
+    "id": "jobs",
+    "links": [
+      {
+        "url": "https://guialinux.uniriotec.br/jobs/",
+        "displayText": "Guia Linux"
+      }
+    ]
   }
 ]

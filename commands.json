@@ -232,5 +232,11 @@
     "name": "bg",
     "shortDescription": "Retoma os processos que estão suspensos.",
     "group": "bg"
+  },
+  {
+    "id": "jobs",
+    "name": "jobs",
+    "shortDescription": "Lista processos suspensos e em segundo plano.",
+    "group": "jobs"
   }
 ]

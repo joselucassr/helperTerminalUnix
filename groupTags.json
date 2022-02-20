@@ -122,5 +122,9 @@
   {
     "id": "bg",
     "tags": "segundo, plano, background, retomar, retornar, processos, tarefas"
+  },
+  {
+    "id": "jobs",
+    "tags": "segundo, plano, background, listar, mostrar, ver, processos, tarefas"
   }
 ]
