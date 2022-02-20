@@ -9,7 +9,7 @@ Lista direitos de acesso para os arquivos e diretórios.
 
 # Exemplos:
 @CodeArea
-// Listar os direitos de acesso para todos os diretórios e 
+// Listar os direitos de acesso para os diretórios e 
 // arquivos de "estudante" dentro do diretório "trybe"
 @mark("~$ ls -l") /trybe/estudante
 @EndCodeArea
