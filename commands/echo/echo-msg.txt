@@ -1,0 +1,14 @@
+@title ~$ echo "mensagem"
+
+# Basicamente
+Escreve uma mensagem no terminal.
+
+# Exemplos:
+@CodeArea
+// Escreve a mensagem "Olá Mundo!" no terminal
+@mark("~$ echo") "Olá Mundo!"
+@EndCodeArea
+
+# Saiba Mais:
+
+@groupExtLinks(echo)

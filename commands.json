@@ -202,5 +202,11 @@
     "name": "chmod [options] [objeto de sistema]",
     "shortDescription": "Altera os direitos de acesso para o objeto de sistema (arquivo ou diretório), nomeado.",
     "group": "chmod"
+  },
+  {
+    "id": "echo-msg",
+    "name": "echo \"mensagem\"",
+    "shortDescription": "Escreve uma mensagem no terminal.",
+    "group": "echo"
   }
 ]

@@ -287,5 +287,14 @@
         "displayText": "Wikipedia"
       }
     ]
+  },
+  {
+    "id": "echo",
+    "links": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Echo_(comando)",
+        "displayText": "Wikipedia"
+      }
+    ]
   }
 ]
