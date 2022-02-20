@@ -1,0 +1,19 @@
+@title ~$ ls -lag
+
+# Basicamente
+Lista direitos de acesso para todos os arquivos e diretórios.
+
+# Variações
+
+@group(ls)
+
+# Exemplos:
+@CodeArea
+// Listar os direitos de acesso para todos os diretórios e 
+// arquivos de "estudante" dentro do diretório "trybe"
+@mark("~$ ls -lag") /trybe/estudante
+@EndCodeArea
+
+# Saiba Mais:
+
+@groupExtLinks(ls)

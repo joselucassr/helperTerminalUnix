@@ -15,7 +15,14 @@
   {
     "id": "ls-l",
     "name": "ls -l",
-    "tags": "permissões, permissoes, direitos, acesso",
+    "tags": "permissões, permissoes, direitos, acessos",
+    "shortDescription": "Lista direitos de acesso para os arquivos.",
+    "group": "ls"
+  },
+  {
+    "id": "ls-lag",
+    "name": "ls -lag",
+    "tags": "permissões, permissoes, direitos, acessos, todos, todas",
     "shortDescription": "Lista direitos de acesso para os arquivos.",
     "group": "ls"
   },
