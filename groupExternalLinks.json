@@ -278,5 +278,14 @@
         "displayText": "Wikipedia"
       }
     ]
+  },
+  {
+    "id": "chmod",
+    "links": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Chmod",
+        "displayText": "Wikipedia"
+      }
+    ]
   }
 ]

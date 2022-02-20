@@ -1,0 +1,27 @@
+@title ~$ chmod [options] [objeto de sistema]
+
+# Basicamente
+Altera os direitos de acesso para o objeto de sistema (arquivo ou diretório), nomeado.
+
+Para facilitar quanto as opções, é possível se lembrar dos números @mark("4"), @mark("2"), @mark("1"):
+- @mark("4") representa a permissão de leitura;
+- @mark("2") representa a permissão de escrita;
+- @mark("1") representa a permissão de execução;
+
+A soma desses números define a combinação das permissões, por exemplo: @mark("4") + @mark("2") = @mark("permissão de leitura") + @mark("permissão de escrita").
+O número @mark("0") indica a falta de permissões.
+
+Esses números são utilizados em uma sequência de 3, com o primeiro número definindo as permissões para o @mark("usuário"), o segundo definindo para um @mark("grupo"), e o terceiro definindo para @mark("outros").
+Por exemplo, para dar todas as permissões para o usuário, apenas leitura para um grupo, e nenhuma para outros, a sequência de números seria: @mark("740").
+
+# Exemplos:
+@CodeAreachmod [options] [objeto de sistema]
+// Dar todas as permissões para o usuário, 
+// apenas leitura para um grupo e nenhuma para outros
+// para o "arquivo.txt"
+@mark("~$ chmod 740") arquivo.txt
+@EndCodeArea
+
+# Saiba Mais:
+
+@groupExtLinks(chmod)

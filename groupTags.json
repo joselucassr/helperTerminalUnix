@@ -98,5 +98,9 @@
   {
     "id": "sort",
     "tags": "ordenar, organizar, ordem"
+  },
+  {
+    "id": "chmod",
+    "tags": "atribuir, dar, aplicar, permissões, permissoes, permissão, permissao, acessos, usuarios, usuários, grupos, outros"
   }
 ]

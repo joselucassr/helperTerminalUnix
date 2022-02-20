@@ -196,5 +196,11 @@
     "shortDescription": "Ordena uma sequência de linhas em ordem crescente, por padrão.Mostra o histórico de comandos usados no terminal.",
     "tags": "crescente",
     "group": "sort"
+  },
+  {
+    "id": "chmod-opt-objSistema",
+    "name": "chmod [options] [objeto de sistema]",
+    "shortDescription": "Altera os direitos de acesso para o objeto de sistema (arquivo ou diretório), nomeado.",
+    "group": "chmod"
   }
 ]
