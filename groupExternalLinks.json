@@ -359,5 +359,14 @@
         "displayText": "Guia Linux"
       }
     ]
+  },
+  {
+    "id": "ps",
+    "links": [
+      {
+        "url": "https://guialinux.uniriotec.br/ps/",
+        "displayText": "Guia Linux"
+      }
+    ]
   }
 ]

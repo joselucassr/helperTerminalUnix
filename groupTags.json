@@ -134,5 +134,9 @@
   {
     "id": "kill",
     "tags": "eliminar, encerrar, excluir, processos, tarefas"
+  },
+  {
+    "id": "ps",
+    "tags": "listar, mostrar, ver, processos, tarefas"
   }
 ]

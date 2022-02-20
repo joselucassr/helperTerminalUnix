@@ -1,0 +1,18 @@
+@title ~$ ps
+
+# Basicamente
+Lista processos atuais.
+
+# Variações
+
+@group(ps)
+
+# Exemplos:
+@CodeArea
+// Mostra todos os processos do terminal atual.
+@mark("~$ ps")
+@EndCodeArea
+
+# Saiba Mais:
+
+@groupExtLinks(ps)
