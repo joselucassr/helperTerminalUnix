@@ -271,5 +271,11 @@
     "shortDescription": "Lista todos processos atuais.",
     "tags": "todos, global, globais",
     "group": "ps"
+  },
+  {
+    "id": "sleep-tempo",
+    "name": "sleep tempo",
+    "shortDescription": "Faz o terminal aguardar o tempo informado.",
+    "group": "sleep"
   }
 ]

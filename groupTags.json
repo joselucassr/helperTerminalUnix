@@ -138,5 +138,9 @@
   {
     "id": "ps",
     "tags": "listar, mostrar, ver, processos, tarefas"
+  },
+  {
+    "id": "sleep",
+    "tags": "dormir, aguardar, esperar"
   }
 ]

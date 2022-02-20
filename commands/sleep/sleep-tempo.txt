@@ -1,0 +1,25 @@
+@title ~$ sleep tempo
+
+# Basicamente
+Faz o terminal aguardar o tempo informado.
+Por padrão opera em segundos, mas pode receber @mark("horas") e @mark("minutos") com o uso de @mark("h") e @mark("m") ao fim do número digitado.
+
+# Exemplos:
+@CodeArea
+// Faz o terminal "dormir" por 300 segundos.
+@mark("~$ sleep") 300
+@EndCodeArea
+
+@CodeArea
+// Faz o terminal "dormir" por 1 hora.
+@mark("~$ sleep") 1h
+@EndCodeArea
+
+@CodeArea
+// Faz o terminal "dormir" por 1 hora e 30 minutos.
+@mark("~$ sleep") 1h; @mark("sleep") 30m
+@EndCodeArea
+
+# Saiba Mais:
+
+@groupExtLinks(sleep)
