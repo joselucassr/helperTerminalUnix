@@ -208,5 +208,11 @@
     "name": "echo \"mensagem\"",
     "shortDescription": "Escreve uma mensagem no terminal.",
     "group": "echo"
+  },
+  {
+    "id": "who",
+    "name": "who",
+    "shortDescription": "Gera uma lista contendo informações sobre cada usuário que está ativo no sistema.",
+    "group": "who"
   }
 ]

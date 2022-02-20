@@ -296,5 +296,14 @@
         "displayText": "Wikipedia"
       }
     ]
+  },
+  {
+    "id": "who",
+    "links": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Who_(Unix)",
+        "displayText": "Wikipedia"
+      }
+    ]
   }
 ]

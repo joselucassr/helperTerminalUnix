@@ -106,5 +106,9 @@
   {
     "id": "echo",
     "tags": "escrever, mensagem, string"
+  },
+  {
+    "id": "who",
+    "tags": "usuários, usuarios, informação, informacao, informações, informacoes, lista"
   }
 ]

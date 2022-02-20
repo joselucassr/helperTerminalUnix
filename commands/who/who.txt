@@ -1,0 +1,15 @@
+@title ~$ who
+
+# Basicamente
+Gera uma lista contendo informações sobre cada usuário que está ativo no sistema.
+
+# Exemplos:
+@CodeArea
+// Retorna informações sobre os usuários, contendo:
+// nome, terminal, data e hora de login
+@mark("~$ who")
+@EndCodeArea
+
+# Saiba Mais:
+
+@groupExtLinks(who)
