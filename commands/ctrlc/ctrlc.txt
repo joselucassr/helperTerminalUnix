@@ -1,7 +1,8 @@
-@title ~$ ^C
+@title ~$ ctrl C
 
 # Basicamente
 Elimina o trabalho em execução em primeiro plano.
+Pode ser representado como @mark("^C").
 
 # Exemplos:
 @CodeArea

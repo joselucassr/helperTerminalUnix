@@ -217,7 +217,7 @@
   },
   {
     "id": "ctrlc",
-    "name": "^C",
+    "name": "ctrl C",
     "shortDescription": "Elimina o trabalho em execução em primeiro plano.",
     "group": "ctrlc"
   },
