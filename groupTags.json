@@ -94,5 +94,9 @@
   {
     "id": "history",
     "tags": "mostrar, ver, histórico, historico"
+  },
+  {
+    "id": "sort",
+    "tags": "ordenar, organizar, ordem"
   }
 ]

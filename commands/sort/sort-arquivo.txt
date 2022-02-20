@@ -1,0 +1,20 @@
+@title ~$ sort arquivo
+
+# Basicamente
+Ordena uma sequência de linhas em ordem crescente, por padrão.
+
+# Exemplos:
+@CodeArea
+// O "arquivo.txt" terá suas linhas ordenadas de forma crescente
+@mark("~$ sort") arquivo.txt
+@EndCodeArea
+
+@CodeArea
+// O "arquivo.txt" terá suas linhas ordenadas de forma decrescente
+// -r é usado para "reverter" a ordem
+@mark("~$ sort") -r arquivo.txt
+@EndCodeArea
+
+# Saiba Mais:
+
+@groupExtLinks(sort)

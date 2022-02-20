@@ -175,5 +175,12 @@
     "name": "history",
     "shortDescription": "Mostra o histórico de comandos usados no terminal.",
     "group": "history"
+  },
+  {
+    "id": "sort-arquivo",
+    "name": "sort arquivo",
+    "shortDescription": "Ordena uma sequência de linhas em ordem crescente, por padrão.Mostra o histórico de comandos usados no terminal.",
+    "tags": "crescente",
+    "group": "sort"
   }
 ]

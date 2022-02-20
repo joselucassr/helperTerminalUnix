@@ -269,5 +269,14 @@
         "displayText": "Wikipedia"
       }
     ]
+  },
+  {
+    "id": "sort",
+    "links": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Sort_(Unix)",
+        "displayText": "Wikipedia"
+      }
+    ]
   }
 ]
