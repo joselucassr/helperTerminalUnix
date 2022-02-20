@@ -240,7 +240,7 @@
     "group": "jobs"
   },
   {
-    "id": "fg-index",
+    "id": "fg-percent-index",
     "name": "fg %index",
     "shortDescription": "Retoma o processo suspenso em primeiro plano, baseado no index.",
     "group": "fg"
