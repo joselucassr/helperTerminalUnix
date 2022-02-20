@@ -341,5 +341,14 @@
         "displayText": "Guia Linux"
       }
     ]
+  },
+  {
+    "id": "fg",
+    "links": [
+      {
+        "url": "https://guialinux.uniriotec.br/fg/",
+        "displayText": "Guia Linux"
+      }
+    ]
   }
 ]

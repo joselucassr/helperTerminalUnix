@@ -1,0 +1,15 @@
+@title ~$ fg %index
+
+# Basicamente
+Retoma o processo suspenso em primeiro plano, baseado no index.
+O index do processo pode ser visto com o comando: @ref(jobs)"jobs".
+
+# Exemplos:
+@CodeArea
+// Retoma o processo de index 4
+@mark("~$ fg %4")
+@EndCodeArea
+
+# Saiba Mais:
+
+@groupExtLinks(fg)

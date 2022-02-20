@@ -238,5 +238,11 @@
     "name": "jobs",
     "shortDescription": "Lista processos suspensos e em segundo plano.",
     "group": "jobs"
+  },
+  {
+    "id": "fg-index",
+    "name": "fg %index",
+    "shortDescription": "Retoma o processo suspenso em primeiro plano, baseado no index.",
+    "group": "fg"
   }
 ]
