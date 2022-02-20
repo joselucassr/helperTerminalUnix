@@ -9,7 +9,7 @@ Canaliza a saída do comando1 para a entrada do comando2.
 // buscar linhas que contenham "javascript" escrito.
 // Depois será executado o comando cat, que deve salvar
 // o resultado do comando anterior no arquivo novo.
-*~$ grep* 'javascript' arquivo.txt | *cat >* arquivoNovo.txt
+@mark("~$ grep") 'javascript' arquivo.txt | @mark("cat >") arquivoNovo.txt
 @EndCodeArea
 
 # Saiba Mais:

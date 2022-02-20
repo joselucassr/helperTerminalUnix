@@ -6,7 +6,7 @@ Lê a página do manual online do comando informado.
 # Exemplos:
 @CodeArea
 // Será exibido o manual do comando "ls"
-*~$ man* ls
+@mark("~$ man") ls
 @EndCodeArea
 
 # Saiba Mais:

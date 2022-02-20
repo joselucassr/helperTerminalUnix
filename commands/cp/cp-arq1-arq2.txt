@@ -6,7 +6,7 @@ Copia arquivo1 e o chama de arquivo2.
 # Exemplos:
 @CodeArea
 // Uma cópia do "arquivo1.txt", chamada "arquivo2.txt", será criada no diretório atual
-*~$ cp* arquivo1.txt arquivo2.txt
+@mark("~$ cp") arquivo1.txt arquivo2.txt
 @EndCodeArea
 
 # Saiba Mais:

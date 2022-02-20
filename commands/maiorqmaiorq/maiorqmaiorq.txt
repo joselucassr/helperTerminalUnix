@@ -6,7 +6,7 @@ Anexa a saída padrão a um arquivo.
 # Exemplos:
 @CodeArea
 // O texto passado ao comando cat será anexado ao "arquivo.txt"
-*~$ cat >>* arquivo.txt
+@mark("~$ cat >>") arquivo.txt
 @EndCodeArea
 
 # Saiba Mais:

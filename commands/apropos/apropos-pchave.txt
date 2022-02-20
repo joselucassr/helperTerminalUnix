@@ -6,7 +6,7 @@ Corresponde a comandos com palavras-chave em suas páginas de manual.
 # Exemplos:
 @CodeArea
 // Serão exibidos os comandos relacionados a "listagem" e a "diretórios"
-*~$ apropos* 'list directory'
+@mark("~$ apropos") 'list directory'
 @EndCodeArea
 
 # Saiba Mais:

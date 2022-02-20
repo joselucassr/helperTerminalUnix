@@ -6,7 +6,7 @@ Exibe as primeiras linhas de um arquivo.
 # Exemplos:
 @CodeArea
 // As primeiras linhas do "arquivo.txt" serão exibidas
-*~$ head* arquivo.txt
+@mark("~$ head") arquivo.txt
 @EndCodeArea
 
 # Saiba Mais:

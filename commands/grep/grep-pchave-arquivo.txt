@@ -7,7 +7,7 @@ Procura por palavras-chave no arquivo.
 @CodeArea
 // A palavra "javascript" será procurada no "arquivo.txt" 
 // e a linha que contiver o valor será exibida
-*~$ grep* 'javascript' arquivo.txt
+@mark("~$ grep") 'javascript' arquivo.txt
 @EndCodeArea
 
 # Saiba Mais:

@@ -6,7 +6,7 @@ Mostra o caminho do diretório atual.
 # Exemplos:
 @CodeArea
 // O comando abaixo retornaria: /home/usuario/trybe/estudante
-*~/trybe/estudante$ pwd*
+@mark("~/trybe/estudante$ pwd")
 @EndCodeArea
 
 # Saiba Mais:

@@ -7,7 +7,7 @@ Realiza uma busca baseado nos parâmetros escritos.
 @CodeArea
 // Procura, no diretório atual, arquivos que começam
 // com o nome "trybe"
-*~$ find* . -name 'trybe*' -type f
+@mark("~$ find") . -name 'trybe*' -type f
 @EndCodeArea
 
 # Saiba Mais:

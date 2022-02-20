@@ -6,7 +6,7 @@ Remove um diretório.
 # Exemplos:
 @CodeArea
 // O "trybe" será apagado
-*~$ rmdir* trybe
+@mark("~$ rmdir") trybe
 @EndCodeArea
 
 # Saiba Mais:

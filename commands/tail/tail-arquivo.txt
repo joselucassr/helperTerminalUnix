@@ -6,7 +6,7 @@ Exibe as últimas linhas de um arquivo.
 # Exemplos:
 @CodeArea
 // As últimas linhas do "arquivo.txt" serão exibidas
-*~$ tail* arquivo.txt
+@mark("~$ tail") arquivo.txt
 @EndCodeArea
 
 # Saiba Mais:

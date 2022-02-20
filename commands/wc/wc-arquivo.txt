@@ -7,7 +7,7 @@ Conta o número de linhas / palavras / caracteres no arquivo.
 @CodeArea
 // No retorno, será exibido na primeira coluna as linhas, na segunda
 // coluna as palavras e na terceira os caracteres, do "arquivo.txt"
-*~$ wc* arquivo.txt
+@mark("~$ wc") arquivo.txt
 @EndCodeArea
 
 # Saiba Mais:

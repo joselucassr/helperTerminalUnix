@@ -9,7 +9,7 @@ Lista todos os arquivos e diretórios.
 # Exemplos:
 @CodeArea
 // Listar todos os diretórios e arquivos de "estudante" dentro do diretório "trybe"
-*~$ ls -a* /trybe/estudante
+@mark("~$ ls -a") /trybe/estudante
 @EndCodeArea
 
 # Saiba Mais:

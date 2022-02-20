@@ -66,7 +66,7 @@ const getPartialHtmlString = async (line, thisCommandId) => {
     if (line.match(/(?<!https:)(?=\/\/).*/))
       text = buildCommentHtml(line, text);
 
-    if (line.match(/\*(.*?)\*/)) text = buildHighlightHtml(line, text);
+    if (line.match(/@mark/g)) text = buildHighlightHtml(line, text);
 
     return text;
   }
@@ -171,13 +171,15 @@ const buildCommentHtml = (line, text) => {
 };
 
 const buildHighlightHtml = (line, text) => {
-  let regex = /\*(.*?)\*/;
+  let regex = /(?=@mark\(").*?(?<="\))/;
   let match = regex.exec(line);
 
   do {
+    let textToHighlight = text.match(/(?<=@mark\(").*?(?="\))/);
+
     let highlightedText = '<span class="purpleHighlight"></span>';
 
-    highlightedText = highlightedText.replace(/(?<=>)[^<]*/, match[1]);
+    highlightedText = highlightedText.replace(/(?<=>)[^<]*/, textToHighlight);
 
     text = text.replace(match[0], highlightedText);
     match = regex.exec(text);

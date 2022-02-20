@@ -8,18 +8,18 @@ Muda para o diretório inicial.
 @group(cd)
 
 # Mais a fundo
-*cd* significa "change directory", que pode ser traduzido para "mudar diretório", e em conjunto ao comando @ref(ls)"ls" é a principal forma de se mover entre diretórios.
-*cd* sozinho tem o mesmo comportamento de "cd ~", e leva o usuário para o diretório inicial.
+@mark("cd") significa "change directory", que pode ser traduzido para "mudar diretório", e em conjunto ao comando @ref(ls)"ls" é a principal forma de se mover entre diretórios.
+@mark("cd") sozinho tem o mesmo comportamento de "cd ~", e leva o usuário para o diretório inicial.
 
 # Exemplos:
 @CodeArea
 // Mudar para diretório inicial
-*~$ cd* 
+@mark("~$ cd") 
 @EndCodeArea
 
 @CodeArea
 // Mesmo comportamento ir para o diretório inicial
-*~$ cd* ~ 
+@mark("~$ cd") ~ 
 @EndCodeArea
 
 # Saiba Mais:

@@ -4,13 +4,13 @@
 Lista arquivos e diretórios.
 
 # Mais a fundo
-*ls* lista arquivos e diretórios e seus metadados associados, como tamanho do arquivo, propriedade e tempo de modificação. Sem opções, ls lista os arquivos contidos no diretório atual , classificando-os em ordem alfabética.
+@mark("ls") lista arquivos e diretórios e seus metadados associados, como tamanho do arquivo, propriedade e tempo de modificação. Sem opções, ls lista os arquivos contidos no diretório atual , classificando-os em ordem alfabética.
 
 # Exemplos:
 @CodeArea
 // Listar os diretórios e arquivos de "estudante"
 // dentro do diretório "trybe"
-*~$ ls* /trybe/estudante
+@mark("~$ ls") /trybe/estudante
 @EndCodeArea
 
 # Saiba Mais:

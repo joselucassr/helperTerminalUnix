@@ -6,7 +6,7 @@ Executa o comando em segundo plano.
 # Exemplos:
 @CodeArea
 // O slack será instalado em segundo plano
-*~$* sudo snap install slack --classic *&*
+@mark("~$") sudo snap install slack --classic @mark("&")
 @EndCodeArea
 
 # Saiba Mais:

@@ -6,7 +6,7 @@ Remove um arquivo.
 # Exemplos:
 @CodeArea
 // O "arquivo.txt" será apagado
-*~$ rm* arquivo.txt
+@mark("~$ rm") arquivo.txt
 @EndCodeArea
 
 # Saiba Mais:

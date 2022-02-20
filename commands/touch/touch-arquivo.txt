@@ -6,7 +6,7 @@ Cria um arquivo.
 # Exemplos:
 @CodeArea
 // O "arquivo.txt" será criado
-*~$ touch* arquivo.txt
+@mark("~$ touch") arquivo.txt
 @EndCodeArea
 
 # Saiba Mais:

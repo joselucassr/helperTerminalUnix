@@ -10,7 +10,7 @@ Exibe um arquivo.
 # Exemplos:
 @CodeArea
 // O "arquivo.txt" será exibido no terminal
-*~$ cat* arquivo.txt
+@mark("~$ cat") arquivo.txt
 @EndCodeArea
 
 # Saiba Mais:
