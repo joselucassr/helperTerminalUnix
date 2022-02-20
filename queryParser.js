@@ -106,9 +106,9 @@ const writeHtml = (queryResults) => {
         <div class="commentHightlight"># Basicamente</div>
         <div>${qr.shortDescription}</div>
       </div>
-      <div onclick="openCommandPage('${qr.id}', '${
-      qr.group
-    }')" class="commentHightlight cardThirdLine">
+      <div onclick="openCommandPage('${
+        qr.id
+      }')" class="commentHightlight cardThirdLine">
         <div>/*</div>
         <div>Clique para ver mais</div>
         <div>*/</div>
@@ -150,8 +150,9 @@ const runQuery = () => {
 
 document.getElementById('inputText').addEventListener('keyup', runQuery);
 
-const openCommandPage = (commandId, commandGroup) => {
-  window.location.href = `/helperTerminalUnix/commandPage.html?command=${commandId}&group=${commandGroup}`;
+const openCommandPage = (commandId) => {
+  window.location.href =
+    '/helperTerminalUnix/commandPage.html?command=' + commandId;
 };
 
 const writeToClipboard = (command, commandId) => {
