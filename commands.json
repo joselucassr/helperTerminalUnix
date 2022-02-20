@@ -250,5 +250,12 @@
     "name": "kill %index",
     "shortDescription": "Encerra o processo em segundo plano, baseado no index.",
     "group": "kill"
+  },
+  {
+    "id": "kill-index",
+    "name": "kill index",
+    "shortDescription": "Encerra o processo de número igual ao index, globalmente.",
+    "tags": "global",
+    "group": "kill"
   }
 ]

@@ -1,0 +1,19 @@
+@title ~$ kill index
+
+# Basicamente
+Encerra o processo de número igual ao index, globalmente.
+O index do processo pode ser visto com o comando: @ref(ps-e)"ps -e".
+
+# Variações
+
+@group(kill)
+
+# Exemplos:
+@CodeArea
+// Encerra o processo de index 4
+@mark("~$ kill 4")
+@EndCodeArea
+
+# Saiba Mais:
+
+@groupExtLinks(kill)

@@ -4,6 +4,10 @@
 Encerra o processo em segundo plano, baseado no index.
 O index do processo pode ser visto com o comando: @ref(jobs)"jobs".
 
+# Variações
+
+@group(kill)
+
 # Exemplos:
 @CodeArea
 // Encerra o processo em segundo plano de index 4
