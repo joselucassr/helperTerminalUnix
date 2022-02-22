@@ -6,5 +6,4 @@ O público alvo é composto por pessoas iniciantes, ou intermediárias, no uso d
 
 ## Documentação
 
-Acesse para ver como adicionar e editar páginas de comandos, tags de busca e links externos.
-[Docs Notion](https://joselucassr.notion.site/Docs-0de792b8bd714324b5fece23e64426c1)
+Acesse para ver como adicionar e editar páginas de comandos, tags de busca e links externos: [Docs Notion](https://joselucassr.notion.site/Docs-0de792b8bd714324b5fece23e64426c1)
