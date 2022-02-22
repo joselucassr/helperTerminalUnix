@@ -20,7 +20,7 @@ Acesse para ver como adicionar e editar páginas de comandos, tags de busca e li
 - `cd ..` : Muda para o diretório pai.
 - `cd diretório` : Muda para o diretório nomeado.
 - `cd ~` : Muda para o diretório inicial.
-- `chmod [options] [objeto de sistema]` : Altera os direitos de acesso para o objeto de sistema (arquivoou diretório), nomeado.
+- `chmod [options] [objeto de sistema]` : Altera os direitos de acesso para o objeto de sistema (arquivo ou diretório), nomeado.
 - `cp arquivo1 arquivo2` : Copia arquivo1 e o chama de arquivo2.
 - `ctrl C` : Elimina o trabalho em execução em primeiro plano.
 - `ctrl Z` : Suspende o trabalho em execução em primeiro plano.
