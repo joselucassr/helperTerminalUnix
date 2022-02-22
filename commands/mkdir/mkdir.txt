@@ -3,9 +3,6 @@
 # Basicamente
 Cria um diretório.
 
-# Mais a fundo
-@mark("ls") lista arquivos e diretórios e seus metadados associados, como tamanho do arquivo, propriedade e tempo de modificação. Sem opções, ls lista os arquivos contidos no diretório atual , classificando-os em ordem alfabética.
-
 # Exemplos:
 @CodeArea
 // Cria um diretório com o nome "trybe" no espaço atual
